@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
@@ -13,4 +14,6 @@
     <ProjectReference Include="..\SistemaInfo.Tecnico.Domain\SistemaInfo.Tecnico.Domain.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> 7bfdde3695f97f7e743a924304719959db023ed3
 </Project>

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInfo.Tecnico.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInfo.Tecnico.Data", "src\SistemaInfo.Tecnico.Data\SistemaInfo.Tecnico.Data.csproj", "{EB21EA58-011E-4421-8D78-C9D8335DAC68}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInfo.Tecnico.Tests", "tests\SistemaInfo.Tecnico.Tests\SistemaInfo.Tecnico.Tests.csproj", "{90771ABE-46A8-4113-9E0F-041D867EF98D}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInfo.Tecnico.Application", "src\SistemaInfo.Tecnico.Application\SistemaInfo.Tecnico.Application.csproj", "{0320A4D4-95D8-428B-B5BC-1B0A4E28813A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1 - Presentation Layer", "{2FDFF5FB-088A-4C24-A24E-303D9620419C}"
@@ -18,6 +20,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain Layer", "3 - Domain Layer", "{6407FA7C-3EAF-40A8-BF08-3DAE259A8EC0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInfo.Tecnico.Api", "src\SistemaInfo.Tecnico.Api\SistemaInfo.Tecnico.Api.csproj", "{E90FEB09-11BF-488E-A034-C76DCF4307C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests Layer", "5 - Tests Layer", "{7315D818-CA00-42E2-8773-4E71A67FB78E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{EB21EA58-011E-4421-8D78-C9D8335DAC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB21EA58-011E-4421-8D78-C9D8335DAC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB21EA58-011E-4421-8D78-C9D8335DAC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90771ABE-46A8-4113-9E0F-041D867EF98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90771ABE-46A8-4113-9E0F-041D867EF98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90771ABE-46A8-4113-9E0F-041D867EF98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90771ABE-46A8-4113-9E0F-041D867EF98D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0320A4D4-95D8-428B-B5BC-1B0A4E28813A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0320A4D4-95D8-428B-B5BC-1B0A4E28813A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0320A4D4-95D8-428B-B5BC-1B0A4E28813A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{953A6707-C20F-4D6C-9404-306814DF0DB8} = {6407FA7C-3EAF-40A8-BF08-3DAE259A8EC0}
 		{EB21EA58-011E-4421-8D78-C9D8335DAC68} = {F33FD3F5-C445-47BE-A771-25B89C69A45F}
+		{90771ABE-46A8-4113-9E0F-041D867EF98D} = {7315D818-CA00-42E2-8773-4E71A67FB78E}
 		{0320A4D4-95D8-428B-B5BC-1B0A4E28813A} = {BB199BC6-7D91-4C55-B68D-78377BCB3C22}
 		{E90FEB09-11BF-488E-A034-C76DCF4307C3} = {2FDFF5FB-088A-4C24-A24E-303D9620419C}
 	EndGlobalSection
