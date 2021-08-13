@@ -17,4 +17,9 @@ CREATE TABLE [dbo].[Lista] (
     [Contrato]  INT             NOT NULL
 );
 
+comando para colocar todos os dados do arquivo Motorista.csv
+Transformei em .txt e entao rodei o comando
+
+bulk insert table from 'Motorista.txt' 
+WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '0x0a')
 
